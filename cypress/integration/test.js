@@ -7,7 +7,7 @@
 
 describe("The homepage", () => {
     it("Has the heading React and Cypress", () => {
-      cy.visit("http://localhost:8080"); 
+      cy.visit("http://localhost:3000"); 
       cy.get("h1").should("contain", "React and Cypress");
     });
   });
